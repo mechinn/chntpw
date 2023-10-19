@@ -31,14 +31,6 @@
 *.out
 *.app
 
-# If make goes well, you should have:
-chntpw # interactive password tool
-chntpw.static # Completely static passord tool
-reged # Registry edit tool, dynamic linked with libc. No crypto.
-reged.static # Registry tool, statically linked.
-sampasswd # user list and password reset commandline util
-sampasswd.static # same but statically linked
-samusrgrp # group list and group membership tool
-samusrgrp.static # static version of same
-cpnt # Simple copy utility, does not truncate file on write
-     # Now deprecated, was at least needed earlier for NTFS writes.
+.vscode
+
+build
